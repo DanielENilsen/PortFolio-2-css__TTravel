@@ -1,0 +1,80 @@
+
+$orangeCOlor:#D57413;
+
+
+
+
+@mixin imageCol ($image, $imageX, $imageY){
+    height: 50vh;
+    border-radius: 50%;
+
+    background: {
+        image:$image;
+        repeat: no-repeat;
+        size: cover;
+        position: $imageX $imageY;  
+    } 
+    
+}
+
+
+
+body {
+    margin:0px;
+    padding:0px;
+    
+}
+
+.headerimage{
+   
+    background-image: url("../img/pexels-julius-silver-753626.jpg");
+    background-position:20% 50%;
+    height: 100vh;    
+}
+.hederText {
+    color:white;
+    font-weight: bold;
+    padding-top:15vh;
+    padding-left:10%;   
+}
+
+a {
+    color:black;
+    font-size: 1.1em;
+}
+
+.arrows { 
+    padding-top:35vh;
+    font-size: 4em;
+    color:$orangeCOlor;
+    padding-left:45%;  
+}
+
+.firstSection {
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+
+.innerFirstImage {
+
+
+   @include imageCol(url("../img/pexels-quang-nguyen-vinh-2132126.jpg"), 0, 60%);
+}
+
+.innerText { 
+    margin-top:6%;
+    h1 {
+        color:$orangeCOlor;
+        font-weight: lighter;
+        margin-left: 30%;        
+    }
+    button {
+        background-color: $orangeCOlor;
+        color:white;
+        border:none;
+        margin-left: 60%;
+    }
+}
+
+

@@ -1,11 +1,25 @@
 {
   "name": "css-framework-oppgave",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielENilsen/PortFolio-2-css__TTravel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DanielENilsen/PortFolio-2-css__TTravel/issues"
+  },
+  "homepage": "https://github.com/DanielENilsen/PortFolio-2-css__TTravel#readme",
+  "description": ""
 }

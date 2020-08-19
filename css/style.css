@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  padding: 0px; }
+
+.headerimage {
+  background-image: url("../img/pexels-julius-silver-753626.jpg");
+  background-position: 20% 50%;
+  height: 100vh; }
+
+.hederText {
+  color: white;
+  font-weight: bold;
+  padding-top: 15vh;
+  padding-left: 10%; }
+
+a {
+  color: black;
+  font-size: 1.1em; }
+
+.arrows {
+  padding-top: 35vh;
+  font-size: 4em;
+  color: #D57413;
+  padding-left: 45%; }
+
+.firstSection {
+  margin-top: 5%;
+  margin-bottom: 15%; }
+
+.innerFirstImage {
+  height: 50vh;
+  border-radius: 50%;
+  background-image: url("../img/pexels-quang-nguyen-vinh-2132126.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 60%; }
+
+.innerText {
+  margin-top: 6%; }
+  .innerText h1 {
+    color: #D57413;
+    font-weight: lighter;
+    margin-left: 30%; }
+  .innerText button {
+    background-color: #D57413;
+    color: white;
+    border: none;
+    margin-left: 60%; }
