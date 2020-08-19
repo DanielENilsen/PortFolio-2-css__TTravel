@@ -34,6 +34,14 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 60%; }
+  @media only screen and (min-device-width: 500px) and (max-device-width: 750px) and (orientation: landscape) {
+    .innerFirstImage {
+      height: 100vh;
+      border-radius: 80%;
+      background-image: url("../img/pexels-quang-nguyen-vinh-2132126.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0 60%; } }
 
 .innerText {
   margin-top: 6%; }

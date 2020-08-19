@@ -5,9 +5,9 @@ $ligthBlueColor:#D4EBFF;
 
 
 
-@mixin imageCol ($image, $imageX, $imageY){
-    height: 50vh;
-    border-radius: 50%;
+@mixin imageCol ($image, $imageX, $imageY, $ImgHeight, $imgRadius){
+    height: $ImgHeight;
+    border-radius: $imgRadius;
 
     background: {
         image:$image;
@@ -58,9 +58,15 @@ a {
 
 
 .innerFirstImage {
+   @include imageCol(url("../img/pexels-quang-nguyen-vinh-2132126.jpg"), 0, 60%, 50vh, 50%);
+
+   @media only screen and (min-device-width: 500px) and (max-device-width: 750px) and (orientation: landscape) {
+     @include imageCol(url("../img/pexels-quang-nguyen-vinh-2132126.jpg"), 0, 60%, 100vh, 80%);
+   
+    }
 
 
-   @include imageCol(url("../img/pexels-quang-nguyen-vinh-2132126.jpg"), 0, 60%);
+   
 }
 
 .innerText { 
