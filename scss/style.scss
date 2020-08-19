@@ -14,16 +14,15 @@ $ligthBlueColor:#D4EBFF;
         repeat: no-repeat;
         size: cover;
         position: $imageX $imageY;  
-    } 
-    
+    }     
 }
+
 
 
 
 body {
     margin:0px;
-    padding:0px;
-    
+    padding:0px;    
 }
 
 .headerimage{
@@ -31,6 +30,28 @@ body {
     background-image: url("../img/pexels-julius-silver-753626.jpg");
     background-position:20% 50%;
     height: 100vh;    
+
+    @media only screen and (min-device-width: 500px) and (max-device-width: 750px) and (orientation: landscape) {
+        height: 140vh;              
+    }
+
+    @media only screen and (min-device-width: 800px) and (max-device-width: 1020px) and (orientation: landscape) {
+        height: 160vh;      
+    }
+
+}
+
+.overideColor {
+    font-size: 1.6em;
+    a {
+        color:white;
+    }
+}
+
+
+
+.downPart {
+    margin-top:5%;
 }
 .hederText {
     color:white;
@@ -54,6 +75,9 @@ a {
 .firstSection {
     margin-top: 5%;
     margin-bottom: 15%;
+    @media only screen and (min-device-width: 1024px) and (max-device-width: 1080px) and (orientation: landscape) {  
+        margin-left:20%;   
+    }
 }
 
 
@@ -61,12 +85,8 @@ a {
    @include imageCol(url("../img/pexels-quang-nguyen-vinh-2132126.jpg"), 0, 60%, 50vh, 50%);
 
    @media only screen and (min-device-width: 500px) and (max-device-width: 750px) and (orientation: landscape) {
-     @include imageCol(url("../img/pexels-quang-nguyen-vinh-2132126.jpg"), 0, 60%, 100vh, 80%);
-   
-    }
-
-
-   
+     @include imageCol(url("../img/pexels-quang-nguyen-vinh-2132126.jpg"), 0, 60%, 100vh, 80%);   
+    }  
 }
 
 .innerText { 
@@ -82,6 +102,35 @@ a {
         border:none;
         margin-left: 60%;
     }
+    @media only screen and (min-device-width: 500px) and (max-device-width: 1080px) and (orientation: landscape) {       
+        h1 { 
+            font-size: 3em;
+        }     
+       
+        p {
+            font-size: 1.2em;
+            width: 90%;
+        }  
+        
+        button {
+            width: 25%;
+            height: 3em;
+            font-size: 1.2em;
+        }
+    }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1000px) and (orientation: portrait) {
+        h1 { 
+            font-size: 4em;
+            margin-left: 32%;
+        }            
+        p {
+            font-size: 1.4em;     
+        }  
+        
+        button {      
+            font-size: 1.5em;
+        }
+    }
 }
 
 .jumbotron {
@@ -95,9 +144,20 @@ a {
         margin-left: 50vw;
         margin-top:2%;
         background-color:$orangeCOlor;
-        color:white;
+        color:white;        
+    } 
+    @media only screen and (min-device-width: 500px) and (max-device-width: 1080px) and (orientation: landscape) { 
+        width: 80vw;
+         margin-left: 1%;
+        
+        img { 
+            width: 100%;
+            height: 50vh;
+        }   
+
         
     }
+       
 }
 
 .lastSection { 

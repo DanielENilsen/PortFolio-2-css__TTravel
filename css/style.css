@@ -6,6 +6,20 @@ body {
   background-image: url("../img/pexels-julius-silver-753626.jpg");
   background-position: 20% 50%;
   height: 100vh; }
+  @media only screen and (min-device-width: 500px) and (max-device-width: 750px) and (orientation: landscape) {
+    .headerimage {
+      height: 140vh; } }
+  @media only screen and (min-device-width: 800px) and (max-device-width: 1020px) and (orientation: landscape) {
+    .headerimage {
+      height: 160vh; } }
+
+.overideColor {
+  font-size: 1.6em; }
+  .overideColor a {
+    color: white; }
+
+.downPart {
+  margin-top: 5%; }
 
 .hederText {
   color: white;
@@ -26,6 +40,9 @@ a {
 .firstSection {
   margin-top: 5%;
   margin-bottom: 15%; }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1080px) and (orientation: landscape) {
+    .firstSection {
+      margin-left: 20%; } }
 
 .innerFirstImage {
   height: 50vh;
@@ -54,6 +71,24 @@ a {
     color: white;
     border: none;
     margin-left: 60%; }
+  @media only screen and (min-device-width: 500px) and (max-device-width: 1080px) and (orientation: landscape) {
+    .innerText h1 {
+      font-size: 3em; }
+    .innerText p {
+      font-size: 1.2em;
+      width: 90%; }
+    .innerText button {
+      width: 25%;
+      height: 3em;
+      font-size: 1.2em; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1000px) and (orientation: portrait) {
+    .innerText h1 {
+      font-size: 4em;
+      margin-left: 32%; }
+    .innerText p {
+      font-size: 1.4em; }
+    .innerText button {
+      font-size: 1.5em; } }
 
 .jumbotron {
   background-color: #D4EBFF; }
@@ -65,6 +100,13 @@ a {
     margin-top: 2%;
     background-color: #D57413;
     color: white; }
+  @media only screen and (min-device-width: 500px) and (max-device-width: 1080px) and (orientation: landscape) {
+    .jumbotron {
+      width: 80vw;
+      margin-left: 1%; }
+      .jumbotron img {
+        width: 100%;
+        height: 50vh; } }
 
 .lastSection {
   margin-top: 5%; }
