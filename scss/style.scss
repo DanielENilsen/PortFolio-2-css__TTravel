@@ -78,6 +78,8 @@ a {
         margin-left:20%;
     }
 
+  
+
 
 }
 
@@ -89,10 +91,19 @@ a {
      @include imageCol(url("../img/pexels-quang-nguyen-vinh-2132126.jpg"), 0, 60%, 100vh, 80%);   
     }  
 
-    //Pc screen
+    //laptop screen
     @media only screen and (min-device-width: 800px) and (max-device-width: 1280px) {
         @include imageCol(url("../img/pexels-quang-nguyen-vinh-2132126.jpg"), 0, 60%, 50vh, 80%);   
     }    
+    
+    //BigScreen 
+    @media only screen and (min-device-width: 1500px) {
+        @include imageCol(url("../img/pexels-quang-nguyen-vinh-2132126.jpg"), 0, 60%, 40vh, 80%);   
+    }  
+
+
+
+
 }
 
 .innerText { 
@@ -240,8 +251,60 @@ a {
 
     .hederText { 
         font-size: 3em;
-    }
+    }    
 }
 
+@media only screen and (min-device-width: 1500px) {
+
+    .downPart {
+        margin-top: 10%;
+    }
+    .overPage {
+        max-width: 80%;
+    }
+
+    .jumbotron {
+        img { 
+            width: 100%;
+            height: 15vw;
+        }
+    }
+    .hederText { 
+        font-size: 4em;
+    } 
+
+    .overideColor {
+        a { 
+            margin-right: 20px;
+        }
+    }
+    .sectionPage {
+        margin-top:100px;
+    }
+
+    .Jumpo {
+        max-width: 100%;
+        padding-left: 0;
+        padding-right:0;        
+    }
+    .overRideTheJump {
+        height: 40em;
+
+        img { 
+            width: 95%;
+            height: 40vh;
+        }
+        h1 { 
+            margin-top:5%;
+            margin-bottom: 1em;
+            
+        }
+        p  {
+            font-size: 1.6em;
+        }
+    }
+    
+
+}
 
 
