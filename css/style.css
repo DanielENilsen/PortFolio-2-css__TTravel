@@ -196,3 +196,7 @@ a {
       margin-bottom: 1em; }
     .overRideTheJump p {
       font-size: 1.6em; } }
+
+.card__edith {
+  display: flex;
+  flex: 1 1 auto; }
