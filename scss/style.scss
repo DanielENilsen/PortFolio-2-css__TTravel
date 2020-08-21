@@ -302,7 +302,17 @@ a {
         p  {
             font-size: 1.6em;
         }
-    }  
+    } 
+
+
+    //Travel Page 
+
+    .card__edith {
+     display: flex;
+      flex: 1 1 auto;
+    }
+    
+
 }
 
 
@@ -313,8 +323,37 @@ a {
     
 }
 
-.card__edith {
-    display: flex;
-  flex: 1 1 auto;
+.downSection {
+    width: 100%;
+
+}
+.infoText { 
+    h1 {
+        margin:3%;        
+        font-size: 8vw;
+    }
+    p {
+        margin:3%; 
+        font-size: 5vw;
+
+
+    }
+    
 }
 
+.gridEdit {
+    margin-top:10%;
+
+    button {
+        background-color: $orangeCOlor;
+        color:white;
+        font-size: 1.2em;
+        border:none;
+    }
+}
+
+.footerHack {
+    margin-top:10%;
+    height: 3em;
+
+}

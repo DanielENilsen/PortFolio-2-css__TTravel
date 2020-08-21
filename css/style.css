@@ -195,8 +195,30 @@ a {
       margin-top: 5%;
       margin-bottom: 1em; }
     .overRideTheJump p {
-      font-size: 1.6em; } }
+      font-size: 1.6em; }
+  .card__edith {
+    display: flex;
+    flex: 1 1 auto; } }
 
-.card__edith {
-  display: flex;
-  flex: 1 1 auto; }
+.downSection {
+  width: 100%; }
+
+.infoText h1 {
+  margin: 3%;
+  font-size: 8vw; }
+
+.infoText p {
+  margin: 3%;
+  font-size: 5vw; }
+
+.gridEdit {
+  margin-top: 10%; }
+  .gridEdit button {
+    background-color: #D57413;
+    color: white;
+    font-size: 1.2em;
+    border: none; }
+
+.footerHack {
+  margin-top: 10%;
+  height: 3em; }
