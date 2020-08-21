@@ -20,11 +20,10 @@ var travelFunction = function (reponsive) {
                                             </div>
                                         </div>
                                         <div class="card-body">
-                                            <h4 class="card-title">Card title</h4>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <button>See More </button>
-                                        </div>
-                                      
+                                            <h3 class="card-title">${reponsive[i].name}</h3>
+                                            <p class="card-text">${reponsive[i].description}</p>
+                                            <button class = "btn btn-warning btnEdith">See More </button>
+                                        </div>                                      
                                     </div>
                                     </div>`;
                                 

@@ -304,15 +304,9 @@ a {
         }
     } 
 
-
     //Travel Page 
 
-    .card__edith {
-     display: flex;
-      flex: 1 1 auto;
-    }
-    
-
+   
 }
 
 
@@ -331,6 +325,7 @@ a {
     h1 {
         margin:3%;        
         font-size: 8vw;
+        color:$orangeCOlor;
     }
     p {
         margin:3%; 
@@ -355,5 +350,48 @@ a {
 .footerHack {
     margin-top:10%;
     height: 3em;
+
+}
+.card-body {
+    h3 {
+        color:$orangeCOlor;
+    }
+}
+
+@media only screen and (min-device-width: 1500px) {
+    .card__edith {
+        display: flex;
+        flex: 1 1 auto;
+
+        
+    }  
+
+    .infoText { 
+        h1 {
+            margin-left:10%;       
+            font-size: 3vw;
+        }
+        p {
+            margin-left:10%; 
+            font-size: 1.4vw;   
+    
+        }
+        
+    }
+
+    .edithContainer {
+        max-width: 80%;
+    }
+
+    .btnEdith {
+        float: right;
+    }
+    .card-img-top{
+        height: 100%;
+        object-fit: cover;
+        
+    }
+
+
 
 }

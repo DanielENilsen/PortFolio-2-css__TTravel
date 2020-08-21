@@ -195,17 +195,15 @@ a {
       margin-top: 5%;
       margin-bottom: 1em; }
     .overRideTheJump p {
-      font-size: 1.6em; }
-  .card__edith {
-    display: flex;
-    flex: 1 1 auto; } }
+      font-size: 1.6em; } }
 
 .downSection {
   width: 100%; }
 
 .infoText h1 {
   margin: 3%;
-  font-size: 8vw; }
+  font-size: 8vw;
+  color: #D57413; }
 
 .infoText p {
   margin: 3%;
@@ -222,3 +220,24 @@ a {
 .footerHack {
   margin-top: 10%;
   height: 3em; }
+
+.card-body h3 {
+  color: #D57413; }
+
+@media only screen and (min-device-width: 1500px) {
+  .card__edith {
+    display: flex;
+    flex: 1 1 auto; }
+  .infoText h1 {
+    margin-left: 10%;
+    font-size: 3vw; }
+  .infoText p {
+    margin-left: 10%;
+    font-size: 1.4vw; }
+  .edithContainer {
+    max-width: 80%; }
+  .btnEdith {
+    float: right; }
+  .card-img-top {
+    height: 100%;
+    object-fit: cover; } }
