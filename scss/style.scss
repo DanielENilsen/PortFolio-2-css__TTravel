@@ -25,7 +25,7 @@ body {
 
 .headerimage{
    
-    background-image: url("../img/pexels-julius-silver-753626.jpg");
+    background:linear-gradient(to left, transparent, rgba(59, 59, 59, 0.164)), url("../img/pexels-julius-silver-753626.jpg");
     background-position:20% 50%;
     height: 100vh;    
     background-repeat: no-repeat;
@@ -56,7 +56,9 @@ body {
     color:white;
     font-weight: bold;
     padding-top:15vh;
-    padding-left:10%;   
+    padding-left:10%; 
+    background-color: #D57413;
+
 }
 
 a {
@@ -65,9 +67,9 @@ a {
 }
 
 .arrows { 
-    padding-top:35vh;
+    padding-top:30vh;
     font-size: 4em;
-    color:$orangeCOlor;
+    color:white;
     padding-left:45%;  
 }
 
@@ -250,6 +252,7 @@ a {
     }
 
     .hederText { 
+        
         font-size: 3em;
     }    
 }
@@ -271,6 +274,7 @@ a {
     }
     .hederText { 
         font-size: 4em;
+        background-color: #D57413;
     } 
 
     .overideColor {
@@ -389,9 +393,67 @@ a {
     .card-img-top{
         height: 100%;
         object-fit: cover;
-        
     }
 
+}
+
+
+//Contact us Page
+
+
+.contactUS {
+    margin-top:8em;
+    margin-left: 10%;
+     h1 {
+         color:$orangeCOlor;
+     }
+}
+
+.btn-primary {
+    background-color: $orangeCOlor;
+    color:white;
+    border:none;
+}
+
+
+.helloCLass {
+    position: fixed;
+    bottom: 0;    
+    width: 100%;
+    height: 3em;
+    
+}
+
+
+.form-control {
+    width: 80%;
+    margin-left: 10%;
+}
+.btn-primary{ 
+    margin-left:10%;
+}
+
+
+
+@media only screen and (min-device-width: 1200px) {
+
+    .form-control {
+        width: 60%;
+        margin-left: 20%;
+        margin-top:1.5%;
+    }
+    .btn-primary{ 
+   
+        margin-left:74%;
+        margin-top:2%;
+        height: 3em;      
+        font-size: 1.1em;
+    }
+    .contactUS {
+
+        margin-left: 20%;
+    }
+    
 
 
 }

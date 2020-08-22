@@ -21,11 +21,13 @@ var travelFunction = function (reponsive) {
                                         </div>
                                         <div class="card-body">
                                             <h3 class="card-title">${reponsive[i].name}</h3>
-                                            <p class="card-text">${reponsive[i].description}</p>
+                                            <p class="card-text">${reponsive[i].description}</p>                                            
                                             <button class = "btn btn-warning btnEdith">See More </button>
+                                            <i class="fas fa-plane-departure"></i>
+                                            <i class="fas fa-tag">500 $</i>
+
                                         </div>                                      
                                     </div>
                                     </div>`;
-                                
     }    
 }
