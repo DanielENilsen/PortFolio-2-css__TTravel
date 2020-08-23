@@ -1,9 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 body {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  font-family: 'Raleway', sans-serif; }
+
+.brandName {
+  font-family: 'Architects Daughter', cursive; }
 
 .headerimage {
-  background: linear-gradient(to left, transparent, rgba(59, 59, 59, 0.164)), url("../img/pexels-julius-silver-753626.jpg");
+  background-image: url("../img/darkRender.jpg");
   background-position: 20% 50%;
   height: 100vh;
   background-repeat: no-repeat; }
@@ -23,20 +30,26 @@ body {
   margin-top: 5%; }
 
 .hederText {
+  display: inline-block;
+  font-family: 'Architects Daughter', cursive;
   color: white;
-  font-weight: bold;
-  padding-top: 15vh;
-  padding-left: 10%; }
+  width: 100%;
+  font-size: 5em;
+  margin-top: 15vh;
+  padding-left: 5%; }
+  .hederText span {
+    color: #D4EBFF;
+    font-family: 'Permanent Marker', cursive; }
 
 a {
   color: black;
   font-size: 1.1em; }
 
 .arrows {
-  padding-top: 30vh;
-  font-size: 4em;
-  color: white;
-  padding-left: 45%; }
+  padding-top: 3vh;
+  font-size: 6em;
+  color: #D4EBFF;
+  padding-left: 42vw; }
 
 .firstSection {
   margin-top: 5%;
@@ -63,11 +76,11 @@ a {
   @media only screen and (min-device-width: 800px) and (max-device-width: 1280px) {
     .innerFirstImage {
       height: 50vh;
-      border-radius: 80%;
+      border-radius: 60%;
       background-image: url("../img/pexels-quang-nguyen-vinh-2132126.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: 0 60%; } }
+      background-position: 0 65%; } }
   @media only screen and (min-device-width: 1500px) {
     .innerFirstImage {
       height: 40vh;
@@ -158,7 +171,9 @@ a {
     color: black; }
   @media only screen and (min-device-width: 1100px) and (max-device-width: 1480px) {
     .addapt button {
-      margin-left: 80vw; } }
+      margin-left: 80vw; }
+    .addapt .seeMoreCorrcet {
+      margin-left: 80%; } }
 
 @media only screen and (min-device-width: 1100px) and (max-device-width: 1480px) {
   .container {
@@ -169,6 +184,18 @@ a {
     font-size: 3em; } }
 
 @media only screen and (min-device-width: 1500px) {
+  .overRideTheJump button {
+    margin-left: 3vw;
+    height: 3em;
+    width: 10em; }
+  .overRideTheJump p {
+    font-size: 1.1em; }
+  .addapt button {
+    margin-left: 60vw;
+    height: 3em;
+    width: 10em; }
+  .brandName {
+    font-size: 3em; }
   .downPart {
     margin-top: 10%; }
   .overPage {
@@ -177,7 +204,12 @@ a {
     width: 100%;
     height: 15vw; }
   .hederText {
-    font-size: 4em; }
+    margin-top: 15%;
+    font-size: 6.5em; }
+    .hederText span {
+      font-size: 0.8em; }
+  .arrows {
+    color: #D57413; }
   .overideColor a {
     margin-right: 20px; }
   .sectionPage {
@@ -192,10 +224,12 @@ a {
       width: 95%;
       height: 40vh; }
     .overRideTheJump h1 {
+      margin-left: 5%;
       margin-top: 5%;
       margin-bottom: 1em; }
     .overRideTheJump p {
-      font-size: 1.6em; } }
+      margin-left: 5%;
+      font-size: 1.3em; } }
 
 .downSection {
   width: 100%; }
@@ -223,6 +257,13 @@ a {
 
 .card-body h3 {
   color: #D57413; }
+
+.iconCLass {
+  margin-left: 10vw;
+  color: #D57413; }
+
+.iconClassTwo {
+  color: #1a1c9c; }
 
 @media only screen and (min-device-width: 1500px) {
   .card__edith {
@@ -278,3 +319,14 @@ a {
     font-size: 1.1em; }
   .contactUS {
     margin-left: 20%; } }
+
+@media only screen and (min-device-width: 1100px) and (max-device-width: 1480px) {
+  .infoText h1 {
+    margin: 3%;
+    font-size: 4vw;
+    color: #D57413; }
+  .infoText p {
+    margin: 3%;
+    font-size: 2vw; }
+  .brandName {
+    font-size: 2em; } }

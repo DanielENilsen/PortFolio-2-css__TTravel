@@ -12,7 +12,7 @@ fetch(travelPlaces).then(reponsive => reponsive.json()).then(travelApi => {
 
 var travelFunction = function (reponsive) { 
     for(let i = 0 ; i < reponsive.length;i++) {
-        travelGrid.innerHTML += `<div class = "col-lg-10 col-xl-6 gridEdit">
+        travelGrid.innerHTML += `<div class = "col-lg-6 col-xl-6 gridEdit">
                                     <div class = "card">
                                         <div class = "card__edith">
                                             <div class = "img-square-wrapper">
@@ -23,8 +23,8 @@ var travelFunction = function (reponsive) {
                                             <h3 class="card-title">${reponsive[i].name}</h3>
                                             <p class="card-text">${reponsive[i].description}</p>                                            
                                             <button class = "btn btn-warning btnEdith">See More </button>
-                                            <i class="fas fa-plane-departure"></i>
-                                            <i class="fas fa-tag">500 $</i>
+                                            <i class="fas fa-plane-departure iconCLass"> </i>
+                                            <i class="fas fa-tag iconClassTwo">500 $</i>
 
                                         </div>                                      
                                     </div>

@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Raleway", sans-serif;
+}
+
+.brandName {
+  font-family: "Architects Daughter", cursive;
+}
+
+.headerimage {
+  background-image: url("../img/darkRender.jpg");
+  background-position: 20% 50%;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 750px) and (orientation: landscape) {
+  .headerimage {
+    height: 140vh;
+  }
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1020px) and (orientation: landscape) {
+  .headerimage {
+    height: 160vh;
+  }
+}
+
+.overideColor {
+  font-size: 1.6em;
+}
+.overideColor a {
+  color: white;
+}
+
+.downPart {
+  margin-top: 5%;
+}
+
+.hederText {
+  display: inline-block;
+  font-family: "Architects Daughter", cursive;
+  color: white;
+  width: 100%;
+  font-size: 5em;
+  margin-top: 15vh;
+  padding-left: 5%;
+}
+.hederText span {
+  color: #D4EBFF;
+  font-family: "Permanent Marker", cursive;
+}
+
+a {
+  color: black;
+  font-size: 1.1em;
+}
+
+.arrows {
+  padding-top: 3vh;
+  font-size: 6em;
+  color: #D4EBFF;
+  padding-left: 42vw;
+}
+
+.firstSection {
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1080px) and (orientation: landscape) {
+  .firstSection {
+    margin-left: 20%;
+  }
+}
+
+.innerFirstImage {
+  height: 50vh;
+  border-radius: 50%;
+  background-image: url("../img/pexels-quang-nguyen-vinh-2132126.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 60%;
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 823px) and (orientation: landscape) {
+  .innerFirstImage {
+    height: 100vh;
+    border-radius: 80%;
+    background-image: url("../img/pexels-quang-nguyen-vinh-2132126.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 60%;
+  }
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) {
+  .innerFirstImage {
+    height: 50vh;
+    border-radius: 60%;
+    background-image: url("../img/pexels-quang-nguyen-vinh-2132126.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 65%;
+  }
+}
+@media only screen and (min-device-width: 1500px) {
+  .innerFirstImage {
+    height: 40vh;
+    border-radius: 80%;
+    background-image: url("../img/pexels-quang-nguyen-vinh-2132126.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 60%;
+  }
+}
+
+.innerText {
+  margin-top: 6%;
+}
+.innerText h1 {
+  color: #D57413;
+  font-weight: lighter;
+  margin-left: 30%;
+}
+.innerText button {
+  background-color: #D57413;
+  color: white;
+  border: none;
+  margin-left: 60%;
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 1080px) and (orientation: landscape) {
+  .innerText h1 {
+    font-size: 3em;
+  }
+  .innerText p {
+    font-size: 1.5em;
+    width: 90%;
+  }
+  .innerText button {
+    width: 25%;
+    height: 3em;
+    font-size: 1.2em;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1000px) and (orientation: portrait) {
+  .innerText h1 {
+    font-size: 4em;
+    margin-left: 32%;
+  }
+  .innerText p {
+    font-size: 1.4em;
+  }
+  .innerText button {
+    font-size: 1.5em;
+  }
+}
+
+.jumbotron {
+  background-color: #D4EBFF;
+}
+.jumbotron img {
+  width: 100%;
+  height: 15vh;
+}
+.jumbotron button {
+  margin-left: 50vw;
+  margin-top: 2%;
+  background-color: #D57413;
+  color: white;
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 1080px) and (orientation: landscape) {
+  .jumbotron {
+    width: 80vw;
+  }
+  .jumbotron p {
+    font-size: 1.7em;
+  }
+  .jumbotron img {
+    width: 100%;
+    height: 50vh;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1000px) and (orientation: portrait) {
+  .jumbotron button {
+    width: 20%;
+    height: 4em;
+    margin-left: 65vw;
+  }
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1480px) {
+  .jumbotron img {
+    height: 41vh;
+  }
+  .jumbotron button {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 1vw;
+    height: 3em;
+    width: 20%;
+  }
+  .jumbotron h1 {
+    margin-bottom: 5%;
+  }
+  .jumbotron p {
+    font-size: 1.3em;
+  }
+}
+
+.lastSection {
+  margin-top: 5%;
+}
+
+.lastArc img {
+  width: 100%;
+  height: 15vh;
+}
+
+.addapt {
+  background-color: white;
+}
+.addapt button {
+  background-color: #D4EBFF;
+  color: black;
+}
+@media only screen and (min-device-width: 1100px) and (max-device-width: 1480px) {
+  .addapt button {
+    margin-left: 80vw;
+  }
+  .addapt .seeMoreCorrcet {
+    margin-left: 80%;
+  }
+}
+
+@media only screen and (min-device-width: 1100px) and (max-device-width: 1480px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .overideColor a {
+    margin-right: 20px;
+  }
+
+  .hederText {
+    font-size: 3em;
+  }
+}
+@media only screen and (min-device-width: 1500px) {
+  .overRideTheJump button {
+    margin-left: 3vw;
+    height: 3em;
+    width: 10em;
+  }
+  .overRideTheJump p {
+    font-size: 1.1em;
+  }
+
+  .addapt button {
+    margin-left: 60vw;
+    height: 3em;
+    width: 10em;
+  }
+
+  .brandName {
+    font-size: 3em;
+  }
+
+  .downPart {
+    margin-top: 10%;
+  }
+
+  .overPage {
+    max-width: 80%;
+  }
+
+  .jumbotron img {
+    width: 100%;
+    height: 15vw;
+  }
+
+  .hederText {
+    margin-top: 15%;
+    font-size: 6.5em;
+  }
+  .hederText span {
+    font-size: 0.8em;
+  }
+
+  .arrows {
+    color: #D57413;
+  }
+
+  .overideColor a {
+    margin-right: 20px;
+  }
+
+  .sectionPage {
+    margin-top: 100px;
+  }
+
+  .Jumpo {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .overRideTheJump {
+    height: 40em;
+  }
+  .overRideTheJump img {
+    width: 95%;
+    height: 40vh;
+  }
+  .overRideTheJump h1 {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 1em;
+  }
+  .overRideTheJump p {
+    margin-left: 5%;
+    font-size: 1.3em;
+  }
+}
+.downSection {
+  width: 100%;
+}
+
+.infoText h1 {
+  margin: 3%;
+  font-size: 8vw;
+  color: #D57413;
+}
+.infoText p {
+  margin: 3%;
+  font-size: 5vw;
+}
+
+.gridEdit {
+  margin-top: 10%;
+}
+.gridEdit button {
+  background-color: #D57413;
+  color: white;
+  font-size: 1.2em;
+  border: none;
+}
+
+.footerHack {
+  margin-top: 10%;
+  height: 3em;
+}
+
+.card-body h3 {
+  color: #D57413;
+}
+
+.iconCLass {
+  margin-left: 10vw;
+  color: #D57413;
+}
+
+.iconClassTwo {
+  color: #1a1c9c;
+}
+
+@media only screen and (min-device-width: 1500px) {
+  .card__edith {
+    display: flex;
+    flex: 1 1 auto;
+  }
+
+  .infoText h1 {
+    margin-left: 10%;
+    font-size: 3vw;
+  }
+  .infoText p {
+    margin-left: 10%;
+    font-size: 1.4vw;
+  }
+
+  .edithContainer {
+    max-width: 80%;
+  }
+
+  .btnEdith {
+    float: right;
+  }
+
+  .card-img-top {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.contactUS {
+  margin-top: 8em;
+  margin-left: 10%;
+}
+.contactUS h1 {
+  color: #D57413;
+}
+
+.btn-primary {
+  background-color: #D57413;
+  color: white;
+  border: none;
+}
+
+.helloCLass {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3em;
+}
+
+.form-control {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.btn-primary {
+  margin-left: 10%;
+}
+
+@media only screen and (min-device-width: 1200px) {
+  .form-control {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 1.5%;
+  }
+
+  .btn-primary {
+    margin-left: 74%;
+    margin-top: 2%;
+    height: 3em;
+    font-size: 1.1em;
+  }
+
+  .contactUS {
+    margin-left: 20%;
+  }
+}
+@media only screen and (min-device-width: 1100px) and (max-device-width: 1480px) {
+  .infoText h1 {
+    margin: 3%;
+    font-size: 4vw;
+    color: #D57413;
+  }
+  .infoText p {
+    margin: 3%;
+    font-size: 2vw;
+  }
+
+  .brandName {
+    font-size: 2em;
+  }
+}
