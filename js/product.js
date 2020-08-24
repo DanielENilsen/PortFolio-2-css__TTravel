@@ -18,6 +18,19 @@ fetch(travelPlaces).then(reponsive => reponsive.json()).then(productId =>  {
 
 
 var travelProductPage = function(reponsive) {
-    innerdivId.innerHTML += `<div class = "currectProduct"><h1>${reponsive[travelID].name}</h1><img src= "${reponsive[travelID].img}" class = "card-img-top embed-responsive-item"></div>`;    
+    innerdivId.innerHTML += `<div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-xl-7">
+                                            <img  class = "card-img-top imgClass" src="${reponsive[travelID].img}">
+                                        </div>  
+                                        <div class="col-lg-4 col-xl-4 edithClass">                                                                    
+                                            <h1 class = "card-title">${reponsive[travelID].name}</h1>
+                                            <p class= "card-text">${reponsive[travelID].description}</p>
+                                            <i class="fas fa-shopping-cart"></i>
+                                            <i class="fas fa-clock"></i>
+                                            <i class="fas fa-lock"></i>                                                         
+                                        </div>
+                                    </div>
+                            </div>`;    
 }
 

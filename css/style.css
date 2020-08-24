@@ -333,3 +333,14 @@ a {
     font-size: 2vw; }
   .brandName {
     font-size: 2em; } }
+
+@media only screen and (min-device-width: 1000px) {
+  .productSection {
+    margin-top: 5%; }
+  .imgClass {
+    object-fit: cover; }
+  .card-text {
+    font-size: 2.4vh;
+    width: 100%; }
+  .edithClass {
+    margin-top: 1%; } }
