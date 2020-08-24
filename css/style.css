@@ -100,7 +100,7 @@ a {
     background-color: #D57413;
     color: white;
     border: none;
-    margin-left: 60%; }
+    margin-left: 40%; }
   @media only screen and (min-device-width: 500px) and (max-device-width: 1080px) and (orientation: landscape) {
     .innerText h1 {
       font-size: 3em; }
@@ -181,7 +181,7 @@ a {
   .overideColor a {
     margin-right: 20px; }
   .hederText {
-    font-size: 3em; } }
+    font-size: 4em; } }
 
 @media only screen and (min-device-width: 1500px) {
   .overRideTheJump button {
@@ -208,8 +208,6 @@ a {
     font-size: 6.5em; }
     .hederText span {
       font-size: 0.8em; }
-  .arrows {
-    color: #D57413; }
   .overideColor a {
     margin-right: 20px; }
   .sectionPage {
@@ -222,7 +220,8 @@ a {
     height: 40em; }
     .overRideTheJump img {
       width: 95%;
-      height: 40vh; }
+      height: 40vh;
+      object-fit: cover; }
     .overRideTheJump h1 {
       margin-left: 5%;
       margin-top: 5%;
@@ -258,6 +257,9 @@ a {
 .card-body h3 {
   color: #D57413; }
 
+.img-square-wrapper {
+  object-fit: cover; }
+
 .iconCLass {
   margin-left: 10vw;
   color: #D57413; }
@@ -280,7 +282,8 @@ a {
   .btnEdith {
     float: right; }
   .card-img-top {
-    height: 100%;
+    height: 35vh;
+    width: 100%;
     object-fit: cover; } }
 
 .contactUS {

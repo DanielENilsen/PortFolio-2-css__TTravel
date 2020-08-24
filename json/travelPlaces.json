@@ -2,31 +2,25 @@
     {
       "name": "Puerto Rico",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo laoreet sit amet cursus.",
-      "img": "https://images.pexels.com/photos/853199/pexels-photo-853199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",   
-      "id": 1
+      "img": "https://images.pexels.com/photos/3010317/pexels-photo-3010317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",   
+      "id": 0
     },
     {
       "name": "Hawaii",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo laoreet sit amet cursus.",
-      "img": "https://images.pexels.com/photos/853199/pexels-photo-853199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",   
-      "id": 2
+      "img": "https://images.pexels.com/photos/3824139/pexels-photo-3824139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",   
+      "id": 1
     },
     {
       "name": "Machu Picchu",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo laoreet sit amet cursus.",  
-      "img": "https://images.pexels.com/photos/853199/pexels-photo-853199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",   
-       "id": 3
+      "img": "https://images.pexels.com/photos/1570610/pexels-photo-1570610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",   
+       "id": 2
     },
     {
-      "name": "Peru",
+      "name": "Australia",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo laoreet sit amet cursus.",
-      "img": "https://images.pexels.com/photos/853199/pexels-photo-853199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",   
-      "id": 4
-    },
-    {
-      "name": "New Zealand",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo laoreet sit amet cursus.",
-      "img": "https://images.pexels.com/photos/853199/pexels-photo-853199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",   
-      "id": 5
+      "img": "https://images.pexels.com/photos/2615031/pexels-photo-2615031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",   
+      "id": 3
     }
   ]

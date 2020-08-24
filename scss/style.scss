@@ -130,7 +130,7 @@ a {
         background-color: $orangeCOlor;
         color:white;
         border:none;
-        margin-left: 60%;
+        margin-left: 40%;
     }
     @media only screen and (min-device-width: 500px) and (max-device-width: 1080px) and (orientation: landscape) { 
         
@@ -270,7 +270,7 @@ a {
     }
 
     .hederText {         
-        font-size: 3em;
+        font-size: 4em;
        
     }    
 
@@ -326,10 +326,7 @@ a {
         }
     } 
 
-    .arrows  {
-        color: $orangeCOlor;
-        
-    }
+  
 
     .overideColor {
         a { 
@@ -351,6 +348,7 @@ a {
         img { 
             width: 95%;
             height: 40vh;
+            object-fit: cover;
         }
         h1 { 
             margin-left: 5%;
@@ -372,10 +370,6 @@ a {
 
 //Travel Page 
 
-
-.body__travel { 
-    
-}
 
 .downSection {
     width: 100%;
@@ -419,12 +413,17 @@ a {
 }
 
 
+.img-square-wrapper {
+    object-fit: cover;
+}
+
 .iconCLass {
     margin-left:10vw;
     color:$orangeCOlor
 }
 .iconClassTwo {
     color:rgb(26, 28, 156);
+
 
 }
 @media only screen and (min-device-width: 1500px) {
@@ -455,8 +454,9 @@ a {
     .btnEdith {
         float: right;
     }
-    .card-img-top{
-        height: 100%;
+    .card-img-top {
+        height: 35vh;
+        width: 100%;
         object-fit: cover;
     }
 
