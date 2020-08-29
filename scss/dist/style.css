@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -64,6 +68,13 @@ a {
   color: #D4EBFF;
   padding-left: 42vw;
 }
+.arrows a {
+  color: white;
+}
+.arrows a:hover {
+  color: white;
+  text-decoration: none;
+}
 
 .firstSection {
   margin-top: 5%;
@@ -112,6 +123,14 @@ a {
     background-size: cover;
     background-position: 0 60%;
   }
+}
+
+.contactSection {
+  margin-bottom: 10%;
+}
+
+.productSection {
+  margin-bottom: 10%;
 }
 
 .innerText {
@@ -455,6 +474,13 @@ a {
     font-size: 2em;
   }
 }
+.formerror {
+  display: none;
+  color: red;
+  font-family: sans-serif;
+  margin-left: 10vh;
+}
+
 @media only screen and (min-device-width: 1000px) {
   .productSection {
     margin-top: 5%;
@@ -471,5 +497,9 @@ a {
 
   .edithClass {
     margin-top: 1%;
+  }
+
+  .formerror {
+    margin-left: 38vh;
   }
 }
